@@ -45,18 +45,6 @@ tile_set = ExtResource("3_xgd2d")
 [node name="Screen" parent="." instance=ExtResource("4_05ikd")]
 follow_viewport_enabled = false
 
-[node name="Hints" type="Node" parent="."]
-
-[node name="Label" type="Label" parent="Hints"]
-offset_left = 4214.0
-offset_top = 2758.0
-offset_right = 4377.0
-offset_bottom = 2806.0
-text = "TRY KILLING THE RATS BY
-JUMPING ON IT (LIKE IN 
-SOME NINTENDO GAME...)"
-label_settings = ExtResource("5_l4q1r")
-
 [node name="Killzone" parent="." instance=ExtResource("6_doph4")]
 position = Vector2(524, 271)
 
@@ -124,6 +112,18 @@ position_smoothing_speed = 10.0
 rotation_smoothing_enabled = true
 rotation_smoothing_speed = 10.0
 editor_draw_limits = true
+
+[node name="Hints" type="Node" parent="."]
+
+[node name="Label" type="Label" parent="Hints"]
+offset_left = 4214.0
+offset_top = 2758.0
+offset_right = 4377.0
+offset_bottom = 2806.0
+text = "ZKUS ZABIT TY KRYSY TIM,
+ZE NA NE SKOCIS (JAKO V
+NEJAKE HRE OD NINTENDA...)"
+label_settings = ExtResource("5_l4q1r")
 
 [connection signal="body_entered" from="ToBoss" to="ToBoss" method="_on_body_entered"]
 [connection signal="body_entered" from="To_stoky_2" to="To_stoky_2" method="_on_body_entered"]

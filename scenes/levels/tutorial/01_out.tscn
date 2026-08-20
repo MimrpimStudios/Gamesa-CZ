@@ -323,9 +323,9 @@ offset_left = 809.0
 offset_top = 308.0
 offset_right = 916.0
 offset_bottom = 356.0
-text = "YOU CAN JUMP BY 
-\"W\" \"SPACE\" OR 
-BY ARROW UP"
+text = "SKACES KLAVESOU
+\"W\" NEBO SIPKOU
+NAHORU"
 label_settings = ExtResource("19_2mrnh")
 
 [node name="Label7" type="Label" parent="Hints"]
@@ -333,36 +333,38 @@ offset_left = 538.0
 offset_top = 307.0
 offset_right = 775.0
 offset_bottom = 355.0
-text = "YOU CAN PRESS \"ESC\" FOR PAUSING
-(SAVING IS AUTOMATIC, YOU CAN
-SEE SAVING... TEXT IN THE RIGHT CORNER)"
+text = "ZMACKNUTIM KLAVES \"ESC\" POZASTAVIS HRU
+(HRA SE UKLADA AUTOMATICKY, PRI 
+ZOBRAZENI UKLADAM... TEXT V PRAVEM ROHU)"
 label_settings = ExtResource("19_2mrnh")
 
 [node name="Label3" type="Label" parent="Hints"]
-offset_left = 824.0
-offset_top = 419.0
-offset_right = 896.0
-offset_bottom = 450.0
-text = "SPIKES ARE 
-DEADLY"
+offset_left = 816.0
+offset_top = 400.0
+offset_right = 901.0
+offset_bottom = 448.0
+text = "BODLAKY 
+JSOU
+SMRTELNE!"
 label_settings = ExtResource("19_2mrnh")
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="Label4" type="Label" parent="Hints"]
-offset_left = 1403.0
+offset_left = 1393.0
 offset_top = 336.0
-offset_right = 1617.0
+offset_right = 1616.0
 offset_bottom = 350.0
-text = "TRY FIND A WAY AROUND THE HOLE..."
+text = "NAJDI JINOU CESTU OKOLO TETO DIRY..."
 label_settings = ExtResource("19_2mrnh")
 
 [node name="Label5" type="Label" parent="Hints"]
-offset_left = 1583.0
-offset_top = 137.0
-offset_right = 1741.0
-offset_bottom = 185.0
-text = "THERE IS NO FALL DAMAGE"
+offset_left = 1638.0
+offset_top = 134.0
+offset_right = 1796.0
+offset_bottom = 182.0
+text = "ZDE NENI ZADNE 
+POSKOZENI PADEM"
 label_settings = ExtResource("19_2mrnh")
 
 [node name="Label6" type="Label" parent="Hints"]
@@ -370,7 +372,7 @@ offset_left = 1961.0
 offset_top = 324.0
 offset_right = 2119.0
 offset_bottom = 372.0
-text = "AVOID CARS"
+text = "VYHNI SE AUTUM"
 label_settings = ExtResource("19_2mrnh")
 
 [node name="TownChanger" type="Area2D" parent="."]

@@ -137,7 +137,7 @@ offset_right = 188.0
 offset_bottom = 55.0
 grow_horizontal = 2
 grow_vertical = 2
-text = "You Died"
+text = "Zemrel Jsi..."
 label_settings = SubResource("LabelSettings_gakxr")
 
 [node name="LabelCount" type="Label" parent="Die"]
@@ -231,7 +231,7 @@ offset_right = -16.0
 offset_bottom = -16.0
 grow_horizontal = 0
 grow_vertical = 0
-text = "Saving..."
+text = "ukladam..."
 label_settings = SubResource("LabelSettings_2oog4")
 uppercase = true
 

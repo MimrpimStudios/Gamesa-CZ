@@ -417,61 +417,6 @@ editor_draw_limits = true
 [node name="Screen" parent="." instance=ExtResource("12_6ioip")]
 follow_viewport_enabled = false
 
-[node name="Hints" type="Node" parent="."]
-
-[node name="Label" type="Label" parent="Hints"]
-offset_left = 539.0
-offset_top = 327.0
-offset_right = 702.0
-offset_bottom = 358.0
-text = "FOR SPRINTING YOU CAN 
-PRESS LEFT OR RIGHT SHIFT"
-label_settings = ExtResource("19_usm4b")
-
-[node name="Label2" type="Label" parent="Hints"]
-offset_left = 808.0
-offset_top = 308.0
-offset_right = 915.0
-offset_bottom = 356.0
-text = "YOU CAN JUMP BY 
-\"W\" \"SPACE\" OR 
-BY ARROW UP"
-label_settings = ExtResource("19_usm4b")
-
-[node name="Label3" type="Label" parent="Hints"]
-offset_left = 832.0
-offset_top = 402.0
-offset_right = 876.0
-offset_bottom = 450.0
-text = "SPIKES 
-ARE 
-DEADLY"
-label_settings = ExtResource("19_usm4b")
-
-[node name="Label5" type="Label" parent="Hints"]
-offset_left = 1583.0
-offset_top = 137.0
-offset_right = 1741.0
-offset_bottom = 185.0
-text = "THERE IS NO FALL DAMAGE"
-label_settings = ExtResource("19_usm4b")
-
-[node name="Label6" type="Label" parent="Hints"]
-offset_left = 1961.0
-offset_top = 324.0
-offset_right = 2119.0
-offset_bottom = 372.0
-text = "AVOID CARS"
-label_settings = ExtResource("19_usm4b")
-
-[node name="Label4" type="Label" parent="Hints"]
-offset_left = 1403.0
-offset_top = 336.0
-offset_right = 1617.0
-offset_bottom = 350.0
-text = "TRY FIND A WAY AROUND THE HOLE..."
-label_settings = ExtResource("19_usm4b")
-
 [node name="Killzone" parent="." instance=ExtResource("4_x875n")]
 position = Vector2(497, 271)
 
@@ -619,6 +564,65 @@ script = ExtResource("13_ysrfm")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="ToFall"]
 position = Vector2(3199, 42)
 shape = SubResource("RectangleShape2D_6t27d")
+
+[node name="Hints" type="Node" parent="."]
+
+[node name="Label2" type="Label" parent="Hints"]
+offset_left = 809.0
+offset_top = 308.0
+offset_right = 916.0
+offset_bottom = 356.0
+text = "SKACES KLAVESOU
+\"W\" NEBO SIPKOU
+NAHORU"
+label_settings = ExtResource("19_usm4b")
+
+[node name="Label7" type="Label" parent="Hints"]
+offset_left = 538.0
+offset_top = 307.0
+offset_right = 775.0
+offset_bottom = 355.0
+text = "ZMACKNUTIM KLAVES \"ESC\" POZASTAVIS HRU
+(HRA SE UKLADA AUTOMATICKY, PRI 
+ZOBRAZENI UKLADAM... TEXT V PRAVEM ROHU)"
+label_settings = ExtResource("19_usm4b")
+
+[node name="Label3" type="Label" parent="Hints"]
+offset_left = 816.0
+offset_top = 400.0
+offset_right = 901.0
+offset_bottom = 448.0
+text = "BODLAKY 
+JSOU
+SMRTELNE!"
+label_settings = ExtResource("19_usm4b")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="Hints"]
+offset_left = 1393.0
+offset_top = 336.0
+offset_right = 1616.0
+offset_bottom = 350.0
+text = "NAJDI JINOU CESTU OKOLO TETO DIRY..."
+label_settings = ExtResource("19_usm4b")
+
+[node name="Label5" type="Label" parent="Hints"]
+offset_left = 1638.0
+offset_top = 134.0
+offset_right = 1796.0
+offset_bottom = 182.0
+text = "ZDE NENI ZADNE 
+POSKOZENI PADEM"
+label_settings = ExtResource("19_usm4b")
+
+[node name="Label6" type="Label" parent="Hints"]
+offset_left = 1961.0
+offset_top = 324.0
+offset_right = 2119.0
+offset_bottom = 372.0
+text = "VYHNI SE AUTUM"
+label_settings = ExtResource("19_usm4b")
 
 [connection signal="body_entered" from="ToFall" to="ToFall" method="_on_body_entered"]
 

@@ -26,7 +26,7 @@ offset_right = 13.0
 offset_bottom = 11.5
 grow_horizontal = 2
 grow_vertical = 2
-text = "AND WHAT THE BOXES?"
+text = "A CO TYT BOXY?"
 label_settings = SubResource("LabelSettings_f7ctc")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -35,20 +35,21 @@ time = 7.0
 scene = "res://scenes/post/label8.tscn"
 
 [node name="Player_old" type="Sprite2D" parent="."]
-position = Vector2(-227, 272)
+position = Vector2(-299, 139)
 scale = Vector2(21.3125, 21.3125)
 texture = ExtResource("3_7168q")
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 182.0
-offset_top = 474.0
-offset_right = 1362.0
-offset_bottom = 666.0
-text = "uNUSED... USED as A PLaceholder"
+offset_left = -346.0
+offset_top = 379.0
+offset_right = 1248.0
+offset_bottom = 571.0
+text = "NEPOUZITY, POUZITY JAKO ZASTUPNA
+TEXTURA..."
 label_settings = SubResource("LabelSettings_hl4hm")
 
 [node name="Boxes" type="Sprite2D" parent="."]
-position = Vector2(727, 351)
+position = Vector2(826, 241)
 scale = Vector2(14.875, 14.875)
 texture = ExtResource("5_j3mdb")

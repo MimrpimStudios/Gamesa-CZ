@@ -341,6 +341,7 @@ autoplay = true
 bus = &"SFX"
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+visible = false
 
 [node name="Label" type="Label" parent="CanvasLayer"]
 visible = false
@@ -355,7 +356,7 @@ offset_right = 20.0
 offset_bottom = 11.5
 grow_horizontal = 2
 grow_vertical = 2
-text = "A few seconds later..."
+text = "O chvili pozdeji..."
 label_settings = SubResource("LabelSettings_oo287")
 
 [connection signal="body_entered" from="DoorHouseOut" to="DoorHouseOut" method="_on_body_entered"]

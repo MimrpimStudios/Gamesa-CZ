@@ -49,7 +49,7 @@ offset_right = 416.0
 offset_bottom = 113.0
 grow_horizontal = 2
 text = "Debug console
-Welcome hacker..."
+TO MAM PRELOZIT I TOTO? TAK NA TO ZAPOMENTE!"
 label_settings = SubResource("LabelSettings_whr0r")
 horizontal_alignment = 1
 uppercase = true

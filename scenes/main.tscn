@@ -50,7 +50,7 @@ offset_right = 20.0
 offset_bottom = 11.5
 grow_horizontal = 2
 grow_vertical = 2
-text = "LOADING..."
+text = "NACITANI..."
 label_settings = SubResource("LabelSettings_sugp2")
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

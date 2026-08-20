@@ -9,13 +9,13 @@ func _ready() -> void:
 	get_launcher_info()
 	if global_var.launcher_type != "":
 		if global_var.launcher_type == "GUI":
-			print("you using gui")
+			print("pouzivas gui")
 			print(global_var.launcher_version)
 		elif global_var.launcher_type == "CLI":
-			print("you using cli")
+			print("pouzivas cli")
 			print(global_var.launcher_version)
 		else:
-			print("you liar")
+			print("ty lhari")
 			timer.wait_time = 10
 	load_patches()
 	timer.start()
@@ -27,7 +27,7 @@ func _process(_delta: float) -> void:
 
 
 func _on_timer_timeout() -> void:
-	print("changing scene to: " + global_var.start_scene)
+	print("menim scenu na: " + global_var.start_scene)
 	get_tree().change_scene_to_file(global_var.start_scene)
 
 
@@ -72,7 +72,7 @@ func get_arg_value(argument_list: PackedStringArray, prefix: String) -> String:
 	return ""
 
 func load_patches():
-	print("loading patches...")
+	print("nacitam patches...")
 	load_all_patches()
 
 func load_all_patches():

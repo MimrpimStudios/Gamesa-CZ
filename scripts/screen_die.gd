@@ -14,6 +14,6 @@ func _ready() -> void:
 func _process(_delta: float) -> void:
 	if global_var.is_player_dead:
 		die.show()
-		label_count.text = "You will be respawned in " + str(int(float(timer_killzone.time_left)) + 1) + " seconds..."
+		label_count.text = "Zrodis se za " + str(int(float(timer_killzone.time_left)) + 1) + " sekund..."
 	else:
 		die.hide()

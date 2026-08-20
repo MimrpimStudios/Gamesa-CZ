@@ -146,14 +146,14 @@ bus = &"Music"
 [node name="Hints" type="Node" parent="."]
 
 [node name="Label2" type="Label" parent="Hints"]
-offset_left = 378.0
+offset_left = 377.0
 offset_top = 278.0
-offset_right = 554.0
+offset_right = 558.0
 offset_bottom = 343.0
-text = "CONGRATULATTIONS! YOU
-FINISHED THE GAME
-SIT ON THE   
-COUCH FOR CREDITS..."
+text = "GRATULUJEME!
+DOHRAL JSI  TUTO HRU.
+SEDNI SI NA   
+GAUC PRO ZAVERECNE TITULKY"
 label_settings = ExtResource("10_o160g")
 horizontal_alignment = 1
 

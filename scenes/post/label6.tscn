@@ -25,9 +25,8 @@ offset_right = 13.0
 offset_bottom = 11.5
 grow_horizontal = 2
 grow_vertical = 2
-text = "AND THAT IS THAT TESTING
-FONT THAT IS \"NOT GOOD\"
-BY THE DEVS"
+text = "A TOTO JE FONT CO PODLE VYVOJARU
+\"NEBYL MOC DOBRY\""
 label_settings = SubResource("LabelSettings_f7ctc")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -36,15 +35,15 @@ time = 4.0
 scene = "res://scenes/post/label7.tscn"
 
 [node name="Player_old" type="Sprite2D" parent="."]
-position = Vector2(-96, 454)
+position = Vector2(125, 382.5)
 scale = Vector2(21.3125, 21.3125)
 texture = ExtResource("3_4hosh")
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 1076.0
-offset_top = 418.0
-offset_right = 1412.0
-offset_bottom = 610.0
-text = "HII"
+offset_left = 896.0
+offset_top = 384.5
+offset_right = 1744.0
+offset_bottom = 576.5
+text = "AHOJ"
 label_settings = SubResource("LabelSettings_hibp3")

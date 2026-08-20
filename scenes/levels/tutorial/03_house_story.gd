@@ -46,14 +46,14 @@ func story_02():
 	await get_tree().create_timer(0.9).timeout
 	player.direction = 0
 	await get_tree().create_timer(1).timeout
-	dialog_player.set_text("Mom, I am back and I have\nThe pills!".to_upper())
+	dialog_player.set_text("Mami, jsem zpet a\nmam ty leky!".to_upper())
 	await get_tree().create_timer(4.5).timeout
 	dialog_player.set_text("")
 	await get_tree().create_timer(1).timeout
 	mother.anim = "fake_sleep"
 	mother.preview()
 	await get_tree().create_timer(1).timeout
-	dialog_mother.text = "Oh that is awsome...\nGive it to me...".to_upper()
+	dialog_mother.text = "To je super!\n Dej mi je".to_upper()
 	await get_tree().create_timer(2.3).timeout
 	mother.anim = "stand"
 	mother.preview()
@@ -63,7 +63,7 @@ func story_02():
 	dialog_mother.text = "".to_upper()
 	await animation_player.animation_finished
 	await get_tree().create_timer(1.5).timeout
-	dialog_mother.text = "Now I am\nfealing much better...\n Thank you son!".to_upper()
+	dialog_mother.text = "Ted se citim\no mnoho lepe...\n Dekuji ti!".to_upper()
 	await get_tree().create_timer(4.5).timeout
 	dialog_mother.text = "".to_upper()
 	await get_tree().create_timer(1).timeout

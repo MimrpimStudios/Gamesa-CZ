@@ -19,8 +19,8 @@ func _on_timer_timeout() -> void:
 	if showed:
 		$Label.size = Vector2(112.0, 31.0)
 		$Label.position = Vector2(3212.5, 2755.0)
-		$Label.text = "IT LOOKS LIKE I AM
-	IN THE SEWERS..."
+		$Label.text = "ASI JSEM SPADL
+		DO STOK..."
 		$Timer.start(5)
 		showed = false
 	else:

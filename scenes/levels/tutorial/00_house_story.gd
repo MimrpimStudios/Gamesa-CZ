@@ -43,16 +43,16 @@ func _process(_delta: float) -> void:
 func story_01():
 	player_anim.play("sitting")
 	await get_tree().create_timer(3).timeout
-	dialog_player.text = "Go, paladin go!".to_upper()
+	dialog_player.text = "Běž paladine, běž!".to_upper()
 	await get_tree().create_timer(3).timeout
 	dialog_player.text = ""
 	await get_tree().create_timer(1).timeout
-	dialog_mother.text = "Gam, can you come here, please?".to_upper()
+	dialog_mother.text = "Gam, můžeš sem, prosím?".to_upper()
 	await get_tree().create_timer(4.5).timeout
 	dialog_mother.text = ""
 	await get_tree().create_timer(1).timeout
 	sfx_loop_end = true
-	dialog_player.text = "One second...".to_upper()
+	dialog_player.text = "Minutku...".to_upper()
 	await get_tree().create_timer(2).timeout
 	dialog_player.text = ""
 	while audio_stream_player_2d.stream == GAMING_PC_WARCRAFT_LOOP:
@@ -65,17 +65,17 @@ func story_01():
 	await get_tree().create_timer(0.9).timeout
 	player.direction = 0
 	await get_tree().create_timer(1.5).timeout
-	dialog_mother.text = "Listen cearfuly...\nI need you to go to the\n pharmacy in the town...".to_upper()
+	dialog_mother.text = "Poslouchej pořádně!\nPotřebuji abys šel do\n lékárny ve městě...".to_upper()
 	await get_tree().create_timer(8).timeout
 	dialog_mother.text = ""
 	await get_tree().create_timer(0.5).timeout
-	dialog_mother.text = "and get some pills.".to_upper()
+	dialog_mother.text = "a vzal mi antibiotika.".to_upper()
 	await get_tree().create_timer(3).timeout
 	dialog_mother.text = ""
 	mother.anim = "sleep_start"
 	mother.preview()
 	await get_tree().create_timer(0.5).timeout
-	dialog_mother.text = "Okay?".to_upper()
+	dialog_mother.text = "Jasné?".to_upper()
 	await get_tree().create_timer(3).timeout
 	dialog_mother.text = ""
 	await get_tree().create_timer(0.5).timeout

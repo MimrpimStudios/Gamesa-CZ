@@ -51,7 +51,7 @@ offset_right = 13.0
 offset_bottom = 11.5
 grow_horizontal = 2
 grow_vertical = 2
-text = "AND OTHER ASSETS..."
+text = "A CO TYTO TEXTUY..."
 label_settings = SubResource("LabelSettings_on07p")
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -70,7 +70,7 @@ offset_left = 182.0
 offset_top = 474.0
 offset_right = 1362.0
 offset_bottom = 666.0
-text = "uNUSED... "
+text = "nEPOUZITY"
 label_settings = SubResource("LabelSettings_hl4hm")
 
 [node name="Boxes" type="Sprite2D" parent="."]
@@ -132,7 +132,7 @@ position = Vector2(710, 248)
 texture = ExtResource("18_ww63b")
 
 [node name="Tileset14" type="Sprite2D" parent="."]
-position = Vector2(659, 466)
+position = Vector2(703, 400)
 texture = ExtResource("19_hkc0t")
 
 [node name="Buttons" type="Sprite2D" parent="."]
